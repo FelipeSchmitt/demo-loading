@@ -1,0 +1,561 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:'Roboto';
+     background-color: white;
+    overflow:hidden;
+}
+.content_grid_template{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    height:100vh;
+}
+.content_grid_template .description_of_softexpert_bpm{
+    background-color:#d9edff
+}
+.content_grid_template #demo_softexpert_img img{
+    display:block;
+    margin:auto;
+    width:70%!important;
+    height:auto!important;
+    margin-top:30px
+}
+.content_grid_template #solution_title h1{
+    text-align:center;
+    color:#02559e;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+.content_grid_template #solution_description{
+    display:block;
+    margin:auto;
+	margin-top: -10px!important;
+    width:80%
+}
+.content_grid_template #solution_description p a{
+    text-decoration:none;
+    color:#02559e
+}
+.content_grid_template #solution_description p{
+    color:#02559e;
+    font-size:18px;
+    font-weight:300;
+    line-height:1.4;
+    text-align:justify
+}
+.content_grid_template #btn_solution_style button{
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    color:#fff;
+    background-color:#d33;
+    height:42px;
+    min-width:30%;
+    font-size:15px;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    border-style:none;
+    border-radius:3px
+}
+.content_grid_template #btn_solution_style #text{
+    display:inline;
+    height:200px
+}
+.content_grid_template #btn_solution_style button:before{
+    content:url('https://www.softexpert.com/wp-content/themes/Zephyr-child/framework/img/monitor-solucao.svg');
+    line-height:58px
+}
+.content_grid_template #btn_solution_style button:hover{
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%), 0 4px 8px rgb(0 0 0 / 30%);
+    cursor:pointer
+}
+.content_grid_template .slides_of_softexpert_bpm{
+	align-items: center;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    width:auto;
+    margin-left:2vh;
+    margin-top:20px;
+    padding-bottom:100px;
+	overflow-y: scroll;
+}
+.content_grid_template .slides_of_softexpert_bpm #slidebox{
+    margin-top:15px;
+    margin-left:40px;
+    margin-right:40px;
+    max-width:330px;
+    min-width:330px
+}
+.content_grid_template .slides_of_softexpert_bpm #slidebox img{
+    width:330px;
+    height:185px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#edecec;
+    border-radius:3px;
+    transition:.25s
+}
+.content_grid_template .slides_of_softexpert_bpm #slidebox img:hover{
+    cursor:pointer;
+    border-color:transparent;
+    box-shadow:0 0 0 5px #d9edff;
+    transition:.25s
+}
+.content_grid_template .slides_of_softexpert_bpm #slidebox p{
+    font-size:100%;
+    text-align:center;
+    width:330px;
+    color:#02559e;
+    font-weight:600;
+    margin-top:5px
+}
+@media screen and (max-width:1700px){
+    .content_grid_template .slides_of_softexpert_bpm{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        width:98%;
+        margin-top:20px;
+        margin-left:2vh;
+        padding-right:22vh;
+        overflow-y:scroll;
+        overflow-x:hidden
+    }
+    .content_grid_template #solution_title{
+        font-size:13px
+    }
+    .content_grid_template #demo_softexpert_img img{
+        margin-top:10px;
+        width:70%!important
+    }
+    .content_grid_template #solution_description{
+        width:85%
+    }
+    .content_grid_template #solution_description p{
+        font-size:16.5px
+    }
+    .btn-header1{
+        display:block;
+        margin:auto;
+        background-color:#d33;
+        color:#fff;
+        padding:0 15px;
+        font-size:22px;
+        line-height:45px;
+        text-transform:none;
+        box-shadow:none;
+        border:none;
+        border-radius:6px;
+        margin-bottom:60px;
+        transition:.25s
+    }
+    .btn-header1{
+        width:200px;
+        height:40px;
+        line-height:35px!important
+    }
+    .btn-header1 span{
+        font-size:13px
+    }
+	.icone-solucao-solicite-apresentacao::before{
+       margin-top: 4px!important;
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox{
+        max-width: 250px;
+		min-width: 250px;
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox img{
+        width:250px;
+        height:140px;
+        padding:3px;
+        border-style:solid;
+        border-width:1px;
+        border-color:#edecec;
+        border-radius:3px;
+        transition:.25s
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox p{
+        width:250px;
+        font-size:14px
+    }
+}
+@media screen and (max-width:1440px){
+    .content_grid_template #solution_title{
+        font-size:12px
+    }
+    .content_grid_template #solution_description{
+        display:block;
+        margin:auto;
+        width:85%
+    }
+    .content_grid_template #demo_softexpert_img img{
+        width:75%!important;
+        margin-top:10px
+    }
+    .content_grid_template #solution_description p{
+        font-size:16px
+    }
+    .content_grid_template .slides_of_softexpert_bpm{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        width:100%!important;
+        margin-left:0;
+        margin-top:40px;
+    }
+    .btn-header1{
+        display:block;
+        margin:auto;
+        background-color:#d33;
+        color:#fff;
+        padding:0 15px;
+        font-size:14px;
+        line-height:45px;
+        text-transform:none;
+        box-shadow:none;
+        border:none;
+        border-radius:6px;
+        margin-bottom:60px;
+        transition:.25s
+    }
+    .btn-header1{
+        width:200px;
+        height:35px;
+        line-height:25px!important
+    }
+    .btn-header1 span{
+        font-size:12px
+    }
+    .content_grid_template .slides_of_softexpert_bpm{
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+        grid-template-columns:1fr 1fr 1fr
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox{
+        margin-top:5px;
+        margin-right:0;
+        width:250px
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox img{
+        width:250px;
+        height:140px
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox p{
+        font-size:14px;
+    }
+	.icone-solucao-solicite-apresentacao::before{
+       margin-top: 0px!important;
+    }
+}
+@media screen and (max-width:1366px){
+    .content_grid_template #solution_description{
+        display:block;
+        margin:auto;
+        width:90%
+    }
+    .content_grid_template #solution_title{
+        font-size:12px
+    }
+    .content_grid_template #demo_softexpert_img img{
+        width:65%!important;
+        margin-top:10px
+    }
+    .content_grid_template #solution_description p{
+        font-size:15px
+    }
+    .content_grid_template .slides_of_softexpert_bpm{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        width:100%!important;
+		padding-left: 0vh;
+        margin-left:0;
+        margin-top:40px
+    }
+    .btn-header1{
+        display:block;
+        margin:auto;
+        background-color:#d33;
+        color:#fff;
+        padding:0 15px;
+        font-size:16px;
+        line-height:45px;
+        text-transform:none;
+        box-shadow:none;
+        border:none;
+        border-radius:2px!important;
+        margin-bottom:60px;
+        transition:.25s
+    }
+    .btn-header1{
+        width:160px;
+        height:36px;
+        line-height:27px!important
+    }
+    .btn-header1 span{
+        font-size:10px
+    }
+    .icone-solucao-solicite-apresentacao::before{
+        margin-top:5px!important
+    }
+    .content_grid_template .slides_of_softexpert_bpm{
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+        grid-template-columns:1fr 1fr 1fr
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox{
+        margin-top:25px;
+        margin-right:0;
+        width:220px
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox img{
+        width:220px;
+        height:123px
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox p{
+        font-size:14px;
+        width:220px
+    }
+	.icone-solucao-solicite-apresentacao::before{
+       margin-top: 2px!important;
+    }
+}
+@media screen and (max-width:1280px){
+    .content_grid_template .slides_of_softexpert_bpm{
+		width: 100%!important;
+        margin-left:0;
+		padding-left: 0vh;
+
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox{
+		max-width: 220px;
+		min-width: 220px;
+	}
+    .content_grid_template #solution_title{
+        font-size:12px
+    }
+    .content_grid_template #solution_description p{
+        font-size:13.5px
+    }
+    .btn-header1{
+        width:160px;
+        height:32px;
+        line-height:30px!important
+    }
+
+
+	.icone-solucao-solicite-apresentacao::before{
+    content:url('https://www.softexpert.com/wp-content/themes/Zephyr-child/framework/img/monitor-solucao.svg');
+    float:left;
+    width:24px;
+    height:22px;
+    margin-top:2.5px!important;
+}
+
+
+}
+@media screen and (max-width:1024px){
+    body{
+        overflow:scroll;
+        overflow-x:hidden
+    }
+    .content_grid_template{
+        display:grid;
+        grid-template-columns:1fr;
+        min-height:1080px
+    }
+	.content_grid_template #solution_title{
+        font-size:14px
+    }
+    .content_grid_template #solution_description{
+        width:65%;
+    }
+    .content_grid_template #solution_description p{
+        font-size:19px
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox{
+        max-width: 400px;
+		min-width: 400px;
+		margin: auto;
+		margin-bottom: 40px;
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox img{
+        max-width:400px;
+        min-width:400px;
+		height: 225px;
+        
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox p{
+        font-size:16px;
+        width: auto;
+		margin-left: 0px;
+    }
+    .content_grid_template #demo_softexpert_img img{
+        width:40%
+    }
+    .content_grid_template .slides_of_softexpert_bpm{
+		margin-top: 60px;
+        width:100% !important;
+        grid-template-columns:1fr 1fr;
+        overflow:visible;
+		padding-right: 0;
+    }
+
+	.btn-header1{
+    display:block;
+    margin:auto;
+	width: 220px;
+	height: 42px;
+    background-color:#d33;
+    color:#fff;
+    padding:0 15px;
+    font-size:18px;
+    line-height:40px;
+    text-transform:none;
+    box-shadow:none;
+    border:none;
+    border-radius:6px;
+    margin-bottom:60px;
+    transition:.25s
+	}
+	btn-header1:hover{
+    cursor:pointer;
+    transition:.25s
+	}
+	.span-btn-header{
+    margin-left:5px
+	}
+	.btn-header1 span{
+		font-size: 13px;
+	}
+	.icone-solucao-solicite-apresentacao::before{
+    content:url('https://www.softexpert.com/wp-content/themes/Zephyr-child/framework/img/monitor-solucao.svg');
+    float:left;
+    width:24px;
+    height:22px;
+    margin-top:2px!important;
+}
+
+
+}
+@media screen and (max-width:840px){
+    body{
+        overflow:scroll;
+        overflow-x:hidden
+    }
+    .content_grid_template{
+        display:grid;
+        grid-template-columns:1fr;
+        min-height:1080px
+    }
+    .content_grid_template #demo_softexpert_img img{
+        display:block;
+        margin:auto;
+        width:90%!important;
+        margin-top:30px
+    }
+    .content_grid_template #btn_solution_style{
+        margin-bottom:40px
+    }
+    .content_grid_template #solution_title h1{
+        text-align:center;
+        color:#02559e
+    }
+    .content_grid_template #solution_description{
+        display:block;
+        margin:auto;
+        width:80%
+    }
+    .content_grid_template #solution_description p{
+        color:#02559e;
+        font-size:18px;
+        font-weight:300;
+        line-height:1.4;
+        text-align:justify
+    }
+    .content_grid_template #btn_solution_style button{
+        display:block;
+        margin:auto;
+        margin-top:20px;
+        color:#fff;
+        background-color:#d33;
+        height:50px;
+        width:45%;
+        font-size:14px;
+        font-family:'Roboto',sans-serif;
+        font-weight:400;
+        border-style:none;
+        border-radius:3px
+    }
+    .content_grid_template #btn_solution_style{
+        margin-bottom:60px
+    }
+    .content_grid_template .slides_of_softexpert_bpm{
+        display:grid;
+        grid-template-columns:1fr;
+        width:57.5%;
+        margin-top:90px
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox{
+        max-width: 300px;
+		min-width: 300px;
+    }
+	.content_grid_template .slides_of_softexpert_bpm #slidebox img{
+		max-width: 300px;
+		min-width: 300px;
+		height: 168px;
+    }
+    .content_grid_template .slides_of_softexpert_bpm #slidebox p{
+        margin-top:10px;
+        font-size:13px
+    }
+
+
+	.btn-header1{
+    display:block;
+    margin:auto;
+	width: 200px;
+	height: 40px;
+    background-color:#d33;
+    color:#fff;
+    padding:0 15px;
+    font-size:18px;
+    line-height:40px;
+    text-transform:none;
+    box-shadow:none;
+    border:none;
+    border-radius:6px;
+    margin-bottom:60px;
+    transition:.25s
+	}
+
+
+}
+.btn-header1{
+    display:block;
+    margin:auto;
+    background-color:#d33;
+    color:#fff;
+    padding:0 15px;
+    font-size:14px;
+    line-height:45px;
+    text-transform:none;
+    box-shadow:none;
+    border:none;
+    border-radius:6px;
+    margin-bottom:60px;
+    transition:.25s
+}
+.btn-header1:hover{
+    cursor:pointer;
+    transition:.25s
+}
+.span-btn-header{
+    margin-left:5px
+}
+.icone-solucao-solicite-apresentacao::before{
+    content:url('https://www.softexpert.com/wp-content/themes/Zephyr-child/framework/img/monitor-solucao.svg');
+    float:left;
+    width:24px;
+    height:22px;
+    margin-top:8px
+}
