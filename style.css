@@ -247,7 +247,7 @@ body{
         position: absolute;
         top: 4vh;
         padding: 15px;
-        transition: 3000ms linear;
+        transition: 2s;
     }
     #suite_image img{
         display: block;
