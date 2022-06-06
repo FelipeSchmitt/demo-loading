@@ -261,7 +261,7 @@ body{
         grid-template-columns: 1fr;
         width: 100%;
         position: absolute;
-        top: 25%;
+        top: 27.5%;
     }
     #text-info{
         display: block;
