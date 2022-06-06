@@ -245,16 +245,14 @@ body{
         width: auto;
         background-color: rgba(245, 245, 245, 0.85);
         position: absolute;
-        margin-top: 5vh;
+        top: 4vh;
         padding: 15px;
-        transition: 1000ms linear;
+        transition: 3000ms linear;
     }
     #suite_image img{
         display: block;
         margin: auto;
         width: 80%;
-        opacity: 1;
-        transition: 1s;
     }
     #blocks{
         display: grid;
